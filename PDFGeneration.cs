@@ -73,10 +73,6 @@ namespace LuxAt163FDPDFGenerationFunction
                         //BlobClient blobClient = containerClient.GetBlobClient(myFileName);
                         // Upload the PDF file to the blob.
 
-                        //blobClient.UploadAsync(output, true);
-                        //blobClient.UploadAsync(output, new BlobHttpHeaders { ContentType = "application/pdf" });
-                        //bloburl = blobClient.Uri.AbsoluteUri.ToString();
-                        //blobfilename = blobClient.Name.ToString();
 
 
 
