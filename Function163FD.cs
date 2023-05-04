@@ -38,11 +38,11 @@ namespace Function163FD
                 string name = req.Query["name"];
 
                 //Testing with local Data
-                //string path = @"C:\Users\ADMIN\Downloads\sample.json";
-                //string requestBody = await new StreamReader(path).ReadToEndAsync();
+                string path = @"C:\Users\ADMIN\Downloads\sample190.json";
+                string requestBody = await new StreamReader(path).ReadToEndAsync();
 
                 //Remove comments wen you do with online data
-                string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+                //string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
                 dynamic data = JsonConvert.DeserializeObject(requestBody);
                 name = name ?? data?.name;
                 
