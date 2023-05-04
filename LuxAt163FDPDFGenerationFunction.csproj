@@ -7,6 +7,8 @@
     <None Remove="163RF.pdf" />
     <None Remove="Completed163RF.pdf" />
     <None Remove="Fill163RF.pdf" />
+    <None Remove="Read100D2022.pdf" />
+    <None Remove="Read100F2022.pdf" />
     <None Remove="Read163NRD2022.pdf" />
     <None Remove="Read163NRF2022.pdf" />
     <None Remove="Read163R.pdf" />
@@ -18,6 +20,12 @@
     <None Remove="Write163R_2021.pdf" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Read100D2022.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Read100F2022.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Read163NRD2022.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
