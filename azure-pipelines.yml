@@ -1,4 +1,11 @@
 # ASP.NET Core (.NET Framework)
+- task: AzureFunctionApp@2
+  inputs:
+    azureSubscription: 'Pay-As-You-Go (29608321-3cc6-429f-84b9-5b5ab55122dc)'
+    appType: 'functionApp'
+    appName: 'algoluxatfunapp'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
