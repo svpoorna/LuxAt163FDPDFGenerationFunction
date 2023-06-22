@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureStorageConnection": "DefaultEndpointsProtocol=https;AccountName=sgalgo13;AccountKey=KVUOv+Rvn0sAmrTVpGreTSum7O91XLYcARHQYV9JHlzEKn2aEeLsnZ1hK6xbfrAL2Qt8RLtn0C/l+AStOfACgw==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "ContainerName": "file-upload",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "Form 163-RFrench2022": "C:\\Users\\ADMIN\\Downloads\\Read163RF2022.pdf",
+    "Form 163-RGerman2022": "C:\\Users\\ADMIN\\Downloads\\Read163RD2022.pdf",
+    "Form 163-NRFrench2022": "C:\\Users\\ADMIN\\Downloads\\Read163NRF2022.pdf",
+    "Form 163-NRGerman2022": "C:\\Users\\ADMIN\\Downloads\\Read163NRD2022.pdf",
+    "Form 190-French2022": "C:\\Users\\ADMIN\\Downloads\\Read163NRD2022.pdf",
+    "Form 100French2022": "C:\\Users\\ADMIN\\Downloads\\Read100F2022.pdf",
+    "Form 100German2022": "C:\\Users\\ADMIN\\Downloads\\Read100D2022.pdf",
+    "Form 190French2022": "C:\\Users\\ADMIN\\Downloads\\Read190F2022.pdf",
+    "Form 190German2022": "C:\\Users\\ADMIN\\Downloads\\Read190D2022.pdf"
+  }
+}
