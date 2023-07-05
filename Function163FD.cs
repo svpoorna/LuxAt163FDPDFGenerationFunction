@@ -38,7 +38,7 @@ namespace Function163FD
                 string name = req.Query["name"];
 
                 //Testing with local Data
-                string path = @"C:\Users\ADMIN\Downloads\sample190F.json";
+                string path = @"C:\Users\ADMIN\Downloads\sample100.json";
                 string requestBody = await new StreamReader(path).ReadToEndAsync();
 
                 //Remove comments wen you do with online data
